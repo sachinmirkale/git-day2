@@ -13,7 +13,7 @@ df = pd.DataFrame(data)
 # Create regression plot
 sns.lmplot(
     data=df,
-    x='Income',
+    x='Nareshit Income',
     y='BirthRate',
     height=5,
     aspect=1.5
