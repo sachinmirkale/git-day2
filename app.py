@@ -28,5 +28,5 @@ print(f"Created instance: {instance_id}")
 print("Waiting for instance to be running...")
 waiter = ec2.get_waiter("instance_running")
 waiter.wait(InstanceIds=[instance_id])
-
 print(f"Instance {instance_id} is running and ready.")
+linux
