@@ -1,5 +1,6 @@
 windows
-windows1
+windows2
+linux
 import boto3
 
 # 1. Initialize EC2 client
